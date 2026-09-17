@@ -15,9 +15,7 @@ The Flutter SDK registers APNs tokens on iOS and FCM tokens on Android, maintain
 ```yaml
 dependencies:
   firebase_core: ^4.0.0
-  honeynotify:
-    git:
-      url: https://github.com/HoneyNotify/flutter-sdk.git
+  honeynotify: ^0.1.0
 ```
 
 Run `flutterfire configure`, initialise Firebase before creating the SDK, enable Push Notifications and Remote notifications for iOS, and follow Firebase's Android notification setup.
